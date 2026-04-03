@@ -39,12 +39,12 @@ Se utiliza `Date.now()` para los *IDs* por garantizar un identificador numerico.
     stock:12,
     categoria:"Perifericos"
 }
-
+```
 ### Organización del proyecto en una arquitectura por capas.
 
 - Se añadió el directorio 'Arquitectura-en-Capas' para una mejor escalabilidad.
 - Se separaron las responsabilidades en:
-- models/ (lógica de negocio)
-- services/ (persistencia/almacenamiento local)
-- ui/ (manipulación del DOM)
+- `models`/ (lógica de negocio)
+- `services`/ (persistencia/almacenamiento local)
+- `ui`/ (manipulación del DOM)
 - Se mantuvo el código en "Spaghetti-Code" para fines comparativos.
