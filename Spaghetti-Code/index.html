@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Producto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        
+    <div class="container-forms">
+        <form action="" id="form-register">
+            <h4>Formulario de Registro</h4>
+            <input class="controls" type="text" id="nombre" placeholder="Ingrese el nombre del producto">
+            <input class="controls" type="number" name="" id="precio" placeholder="Ingrese el precio">
+            <input class="controls" type="number" id="stock" placeholder="Ingrese el stock">
+            <input class="controls" type="text"id="categoria" placeholder="Ingrese la categoria">
+            <button type="submit" class="butons">Agregar</button>
+            
+        </form>
+
+        
+        <form action="" class="view-Products">
+            <h2>Productos registrados</h2>
+           <center>
+             <h2>Filtrar Inventario</h2>
+            <select id="opcions">
+            </select>
+            <button type="button" class="buton-filter">Filtrar</button>
+           </center>
+            <p id="numberProducts"></p>
+            <ul id="listProducts"></ul>
+
+        </form>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
