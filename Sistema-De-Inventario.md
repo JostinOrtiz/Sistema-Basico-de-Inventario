@@ -40,7 +40,7 @@ Se utiliza `Date.now()` para los *IDs* por garantizar un identificador numerico.
     categoria:"Perifericos"
 }
 
-Organización del proyecto en una arquitectura por capas.
+### Organización del proyecto en una arquitectura por capas.
 
 - Se añadió el directorio 'Arquitectura-en-Capas' para una mejor escalabilidad.
 - Se separaron las responsabilidades en:
